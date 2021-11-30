@@ -4,7 +4,7 @@ import express from "express";
     const app = express();
 
     app.get("/", (req, res) => res.json({
-        hello: "world!"
+        APO: "Welcome to AWS!"
     }));
 
     const port = process.env.PORT || 9000;
