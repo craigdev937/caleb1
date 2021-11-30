@@ -1,0 +1,33 @@
+{
+  "name": "caleb1",
+  "version": "1.0.0",
+  "description": "Inital setup of the project.  Created with Node.js, Express, and AWS Elastic Beanstalk.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "pro": "node src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigomx9/caleb1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigomx9/caleb1/issues"
+  },
+  "homepage": "https://github.com/indigomx9/caleb1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
+
+
+
